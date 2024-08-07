@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
-const token = require('../../../fixtures/token.json') 
-const data = require('../../../fixtures/data.json')
+const token = require('../../fixtures/token.json') 
+const data = require('../../fixtures/data.json')
+
 
 describe('Teste de API de cupons', () => {
 

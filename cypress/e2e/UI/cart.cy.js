@@ -1,6 +1,6 @@
 import { Dado, Quando, E, Entao } from 'cypress-cucumber-preprocessor/steps'
-const { produtoPage, carrinhoPage } = require('../../../support/page_objects')
-const produto = require('../../../fixtures/produtos.json')
+const { produtoPage, carrinhoPage } = require('../../support/page_objects')
+const produto = require('../../fixtures/produtos.json')
 
 Dado('que eu acesse a página de produtos da EBAC-SHOP', () => {
     cy.visit("produtos")

@@ -1,7 +1,7 @@
 import { Dado, Quando, E, Entao } from 'cypress-cucumber-preprocessor/steps'
 const { faker } = require('@faker-js/faker')
-const { loginPage, homePage } = require('../../../support/page_objects')
-const login = require('../../../fixtures/perfil.json')
+const { loginPage, homePage } = require('../../support/page_objects')
+const login = require('../../fixtures/perfil.json')
 
 Dado('que acesso a página da minha conta', () => {
     cy.visit('minha-conta')
